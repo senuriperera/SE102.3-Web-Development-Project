@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+}
+.background-image{
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navigation-brand-text{
+    font-style: italic;
+    font-size: x-large;
+    color: bisque;
+}
+.navigation-link-text{
+    text-align: center;
+}
+.nav-link-animation{
+    position: relative;
+}
+.nav-link-animation::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link-animation:hover::after{
+    opacity: 1;
+}
+.footer-styles{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    color: bisque;
+}
