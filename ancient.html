@@ -1,134 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Island Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/assets/web-resources/logo-nav.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/web-resources/logo-nav.png"
+    />
     <!-- <link href="/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
-    <link href="/css/styles.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-<!-- <script src="/js/bootstrap.bundle.min.js"></script> -->
-<script src="js/bootstrap-4.4.1.js"></script>
-</head>
-<body>
-    <img class="background-image" src="https://images.unsplash.com/photo-1649856092355-eee498b1d0f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="website background image">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="/js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </head>
+  <body>
+    <img
+      class="background-image"
+      src="https://images.unsplash.com/photo-1649856092355-eee498b1d0f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"
+      alt="website background image"
+    />
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-              <a class="navbar-brand" href="/index.html">
-                <img src="/assets/web-resources/logo-nav.png" alt="Island Explorer Logo" width="100" height="100" class="d-inline-block">
-                <span class="navigation-brand-text">Island Explorer</span>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/contactUs.html">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" aria-current="page" href="#">Destinations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/activities.html">Activities</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/accommodations.html">Accommodations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active nav-link-animation navigation-link-text" href="/tourPackages.html">Tour Packages</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="/assets/web-resources/logo-nav.png"
+              alt="Island Explorer Logo"
+              width="100"
+              height="100"
+              class="d-inline-block"
+            />
+            <span class="navigation-brand-text">Island Explorer</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/contactUs.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  aria-current="page"
+                  href="#"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/activities.html"
+                  >Activities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/accommodations.html"
+                  >Accommodations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-link-animation navigation-link-text"
+                  href="/tourPackages.html"
+                  >Tour Packages</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
     <!-- add all your content inside the below div tag -->
     <div>
-	  <div class="row">
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/kandy 1.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Kandy&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/Dambulla 2.jpg" alt="Card image cap" width="38" height="180" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Dabulla&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/yapahuwa 1.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Yaphuwa&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/sigiriya 1.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Sigiriya&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-	  </div>
-		<br>
-	  <div class="row">
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/izuru-kannagara-UeSfcl4xreE-unsplash.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Anuradhapura&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/nisal-masitha-bandara-ERAQCrVtHAw-unsplash.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Polonnaruwa&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/ramlan-junkeer-b7wGKvzTFaw-unsplash.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Kelaniya&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-		  <div class="col-xl-3">
-		    <div class="card col-md-4 col-xl-12"> <img src="SENU/Acient/dhanura-munasinghe-TsLIyTDgkkY-unsplash.jpg" alt="Card image cap" class="card-img-top">
-		      <div class="card-body">
-		        <h5 class="card-title">Adam's Peak&nbsp;</h5>
-		        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		        <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-	        </div>
-		  </div>
-	  </div>
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/kandy 1.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kandy&nbsp;</h5>
+              <p class="card-text">
+                Immerse yourself in the rich heritage of Sri Lanka's cultural
+                capital, home to the Temple of the Tooth Relic and surrounded by
+                lush hills and serene lakes.
+              </p>
+              <p class="card-text">Central Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/Dambulla 2.jpg"
+              alt="Card image cap"
+              width="38"
+              height="180"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dabulla&nbsp;</h5>
+              <p class="card-text">
+                Explore the historic Dambulla Cave Temple, a UNESCO World
+                Heritage Site, where ancient rock cave murals and stunning
+                Buddha statues reveal the artistic and religious legacy of Sri
+                Lanka.&nbsp;
+              </p>
+              <p class="card-text">Central Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/yapahuwa 1.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yaphuwa&nbsp;</h5>
+              <p class="card-text">
+                Journey into the past at Yapahuwa, an ancient citadel with
+                impressive rock formations, ancient ruins, and a majestic
+                staircase. Uncover the history of this once royal residence in
+                the heart of Sri Lanka.
+              </p>
+              <p class="card-text">North Western Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/sigiriya 1.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sigiriya&nbsp;</h5>
+              <p class="card-text">
+                Ascend the iconic Lion Rock, an ancient fortress rising
+                dramatically from the Sri Lankan plains. Marvel at intricate
+                frescoes, a palace in the clouds, and a history that echoes
+                through the ages.&nbsp;
+              </p>
+              <p class="card-text">Central Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/izuru-kannagara-UeSfcl4xreE-unsplash.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Anuradhapura&nbsp;</h5>
+              <p class="card-text">
+                Step back in time at the sacred city of Anuradhapura, a UNESCO
+                World Heritage Site. Explore ancient stupas, magnificent
+                dagobas, and sacred Bodhi trees, tracing the roots of Sri
+                Lanka's rich cultural and religious heritage.&nbsp;
+              </p>
+              <p class="card-text">North Central Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/nisal-masitha-bandara-ERAQCrVtHAw-unsplash.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Polonnaruwa&nbsp;</h5>
+              <p class="card-text">
+                Uncover the ancient splendors of Polonnaruwa, the second capital
+                of Sri Lanka. Marvel at well-preserved ruins, intricately carved
+                sculptures, and sacred monuments that narrate tales of a bygone
+                royal era.&nbsp;
+              </p>
+              <p class="card-text">North Central Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/ramlan-junkeer-b7wGKvzTFaw-unsplash.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kelaniya&nbsp;</h5>
+              <p class="card-text">
+                Discover the spiritual charm of Kelaniya, home to the historic
+                Kelaniya Raja Maha Vihara. This sacred temple, with its vibrant
+                murals and sacred Buddha shrine, stands as a testament to the
+                enduring religious heritage of Sri Lanka.
+              </p>
+              <p class="card-text">Western Province.&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card col-md-4 col-xl-12">
+            <img
+              src="SENU/Acient/dhanura-munasinghe-TsLIyTDgkkY-unsplash.jpg"
+              alt="Card image cap"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Adam's Peak&nbsp;</h5>
+              <p class="card-text">
+                Embark on a pilgrimage to the sacred Adam's Peak, a revered site
+                for multiple religions. Ascend the stairway to witness a
+                breathtaking sunrise and pay homage to the mysterious footprint
+                believed to be that of Buddha, Shiva, or Adam, depending on the
+                faith.
+              </p>
+              <p class="card-text">Sabaragmuwa Province&nbsp;</p>
+              <a href="contactUs.html" class="btn btn-primary"
+                >Book an appointment&nbsp;</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
-        <footer class="footer-styles">
-            <p style="text-align: center;">Copyright 2023. All rights reserved. Island Explorer</p>
-        </footer>
+      <footer class="footer-styles">
+        <p style="text-align: center">
+          Copyright 2023. All rights reserved. Island Explorer
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
