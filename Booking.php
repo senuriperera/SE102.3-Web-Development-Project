@@ -259,17 +259,17 @@
             <label for="message ">Additional Notes</label>
             <textarea id="message " name="additional_notes" placeholder="Tell us anything else that might be important. " required></textarea>
         </div>
- 
-        <button type="submit" name="submit">Place Your Reservation</button>
+        <<<<<<< HEAD=======>>>>>>> 1db567da05a6ddb35ca753a80b6b840c20b06d0a
+            <button type="submit" name="submit">Place Your Reservation</button>
 
-        <?php
-        include_once 'db.php';
-        if (isset($_POST["submit"])) {
-            $visitor_name = $_POST['visitor_name'];
-            $accommodation_selection = $_POST['accommodation_selection'];
-            echo $visitor_name;
-        }
-        ?>
+            <?php
+            include_once 'db.php';
+            if (isset($_POST["submit"])) {
+                $visitor_name = $_POST['visitor_name'];
+                $accommodation_selection = $_POST['accommodation_selection'];
+                echo $visitor_name;
+            }
+            ?>
 
     </form>
 
