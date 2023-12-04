@@ -1,17 +1,10 @@
 body{
     overflow-x: hidden;
-}
-.background-image{
-    z-index: -1;
-    background-repeat: no-repeat;
+    min-height: 500px;
     background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    filter: brightness(0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navigation-brand-text{
     font-style: italic;
@@ -38,10 +31,51 @@ body{
 .nav-link-animation:hover::after{
     opacity: 1;
 }
+.cta-button{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    min-height: 50px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    opacity: 60%;
+    transition: 0.4s;
+}
+.cta-button:hover{
+    opacity: 100%;
+}
+.landing-section{
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    width: 75vw;
+}
+.landing-section img {
+    width: 700px;
+    height: 500px;
+    border-radius: 50px 10px 50px 10px;
+}
+.cta-section{
+    width: 75%;
+    height: 100%;
+}
+.slider-image{
+    width: 800px;
+    height: 500px;
+    opacity: 100%;
+    border-radius: 50px 10px 50px 10px;
+    margin-top: 10px;
+}
 .footer-styles{
-    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: darkslategrey;
+    opacity: 80%;
     color: bisque;
+}
+.footer-styles p {
+    margin: 0;
 }
