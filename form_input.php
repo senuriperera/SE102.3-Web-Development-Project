@@ -14,17 +14,23 @@ if (isset($_POST["submit"])) {
     $accommodation_selection = $_POST['accommodation_selection'];
     $additional_notes = $_POST['additional_notes'];
 
-    // Insert the data into the database
-    $sql = "INSERT INTO bookings (visitor_id, visitor_name, visitor_email, tour_package_selection, days, total_adults, total_children, category_selection, accommodation_selection, additional_notes) 
-        VALUES ('$visitor_id', '$visitor_name', '$visitor_email', '$tour_package_selection', $days, $total_adults, $total_children, '$category_selection', '$accommodation_selection', '$additional_notes')";
+    // Use prepared statements to insert data into the database
+    $stmt = $conn->prepare("INSERT INTO bookings (visitor_id, visitor_name, visitor_email, tour_package_selection, days, total_adults, total_children, category_selection, accommodation_selection, additional_notes) 
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-    if ($conn->query($sql) === TRUE) {
+    // Bind parameters to the prepared statement
+    $stmt->bind_param("ssssiiisss", $visitor_id, $visitor_name, $visitor_email, $tour_package_selection, $days, $total_adults, $total_children, $category_selection, $accommodation_selection, $additional_notes);
+
+    // Execute the prepared statement
+    if ($stmt->execute()) {
         header("Location: booking.php");
         echo "Record added successfully";
-        echo $accommodation_selection;
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error: " . $stmt->error;
     }
+
+    // Close the prepared statement
+    $stmt->close();
 }
 
 // Close the database connection
