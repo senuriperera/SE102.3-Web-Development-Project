@@ -1,0 +1,30 @@
+.main-div {
+    min-height: 100vh;
+    padding: 5%;
+}
+
+.inner-div {
+    background-color: white;
+    padding: 2%;
+}
+.contact-heading{
+    font-size: 32px;
+}
+.textstyles {
+    margin: 1%;
+}
+.inputareas {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+.inputareas:hover {
+    border-bottom: 2px solid orange;
+}
+.submitbutton {
+    border: 0;
+    padding: 1%;
+    width: 15%;
+    background-color: orange;
+
+}
