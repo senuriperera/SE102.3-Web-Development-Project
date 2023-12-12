@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Island Explorer</title>
+  <link rel="icon" type="image/x-icon" href="assets/gb/logo.png">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/contactUs.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body background="assets/gb/backgroundimage.png">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="navigation-brand-text" style="line-height: 0.8;">Island<br>&emsp;Explorer</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text" aria-current="page" href="#">Contact
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text"
+                href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text" href="activities.html">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text"
+                href="accommodations.html">Accommodations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-link-animation navigation-link-text" href="tourPackages.html">Tour
+                Packages</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="main-div">
+    <div class="inner-div">
+      <form action="contactUs.php" method="post">
+        <p class="contact-heading">Contact Form</p>
+        <label for="name" class="textstyles">Name</label> 
+        <input type="text" name="name" id="name" class="inputareas">
+        <label for="email" class="textstyles">Email</label>
+        <input type="email" name="email" id="email" class="inputareas">
+        <label for="message" class="textstyles">Message</label>
+        <textarea name="message" id="message" cols="30" rows="8" class="inputareas"></textarea>
+        <input type="submit" value="Submit" class="submitbutton">
+      </form>
+    </div>
+  </div>
+  <div>
+    <footer class="footer-styles">
+      <p style="text-align: center;">Copyright 2023. All rights reserved. Island Explorer</p>
+    </footer>
+  </div>
+</body>
+
+</html>
