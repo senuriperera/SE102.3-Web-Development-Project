@@ -7,9 +7,9 @@ body{
     background-size: cover;
 }
 .navigation-brand-text{
-    font-style: italic;
-    font-size: x-large;
-    color: bisque;
+    font-family: Ephesis;
+    font-size: 46px;
+    color: white;
 }
 .navigation-link-text{
     text-align: center;
@@ -69,12 +69,28 @@ body{
     border-radius: 50px 10px 50px 10px;
     margin-top: 10px;
 }
+.c-div{
+    width: 23rem;
+    height: 18rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-div p {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
 .footer-styles{
     bottom: 0;
     width: 100%;
-    background-color: darkslategrey;
-    opacity: 80%;
-    color: bisque;
+    min-height: 5vh;
+    padding: 1%;
+    background-color: white;
+    color: black;
 }
 .footer-styles p {
     margin: 0;
