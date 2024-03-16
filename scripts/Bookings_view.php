@@ -19,28 +19,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Appointments</title>
     <link rel="icon" href="imgs/drcare.ico" type="image/x-icon">
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/customScript.js"></script>
-</head>
     <style>
         table td,
         table th {
             vertical-align: middle;
             text-align: right;
             padding: 20px !important;
-            color:white;
-            text-align: center;
-        }
-
-        h1,h2{
-            color: orange;
         }
     </style>
 </head>
 
-<body background="assets/web-resources/bg-img.png">
+<body>
     <div class="container my-4">
         <?php
         // Linking Database.php
@@ -56,7 +45,7 @@
 
             <h2>Booking Appointment List</h2>
             <div>
-                <a href="" class="btn btn-warning">Logout</a>
+                <a href="" class="btn btn-primary">Logout</a>
             </div>
             <div>
 
@@ -65,16 +54,16 @@
 
         <table class="table table-bordered">
             <thead>
-                <tr class=" table-dark" >
-                    <th style="color: orange;">reservation_date</th>
-                    <th style="color: orange;">Visitor Id/Passport</th>
-                    <th style="color: orange;">Name</th>
-                    <th style="color: orange;">Email</th>
-                    <th style="color: orange;">Tour Package</th>
-                    <th style="color: orange;">No of Days</th>
-                    <th style="color: orange;">Total Adults</th>
-                    <th style="color: orange;">Total Children</th>
-                    <th style="color: orange;">Additional Notes</th>
+                <tr>
+                    <th>reservation_date</th>
+                    <th>Visitor Id/Passport</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Tour Package</th>
+                    <th>No of Days</th>
+                    <th>Total Adults</th>
+                    <th>Total Children</th>
+                    <th>Additional Notes</th>
                 </tr>
             </thead>
             <tbody>

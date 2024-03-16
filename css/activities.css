@@ -1,3 +1,22 @@
+.main {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.main img {
+    width: 100%;
+    height: auto;
+}
+.main p {
+    margin: 2%;
+    text-align: center;
+}
+
 h1,
 h3 {
     color: orange;
@@ -5,33 +24,5 @@ h3 {
 }
 
 a {
-    color: white;
-}
-
-p {
-    color: white;
-    text-align: justify;
-    margin-top: 0;
-}
-
-.body {
-    padding: 50px;
-}
-
-img.body {
-    justify-self: center;
-    display: flexbox;
-    display: block;
-    margin: 0 auto;
-    height: auto;
-}
-
-hr {
-    width: 70%;
-    margin: 0 auto;
-    height: 2px;
-    border: none;
-    background: orange;
-    opacity: 1;
-    padding-left: 10px;
+    color: black;
 }

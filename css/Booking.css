@@ -1,4 +1,4 @@
-body {
+.container-body {
     width: 500px;
     margin: 0 auto;
     padding: 50px;
@@ -20,7 +20,7 @@ label {
     font-family: 'Nanum Gothic';
     padding-bottom: 10px;
     font-size: 1.25em;
-    color: orange;
+    color: white;
 }
 
 input,
@@ -50,7 +50,7 @@ hr {
 
 button {
     height: 50px;
-    background: orange;
+    background: black;
     border: none;
     color: white;
     font-size: 1.25em;
@@ -59,14 +59,10 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    border: 2px solid black;
-}
-
 .main_selection {
     display: block;
     font-family: 'Nanum Gothic';
     padding-bottom: 10px;
     font-size: 1.25em;
-    color: orange;
+    color: white;
 }
